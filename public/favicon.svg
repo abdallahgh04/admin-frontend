@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fond sombre arrondi -->
+  <rect width="64" height="64" rx="14" fill="#111111"/>
+
+  <!-- Bordure rouge -->
+  <rect width="64" height="64" rx="14" fill="none" stroke="#E63946" stroke-width="3"/>
+
+  <!-- Bouclier admin -->
+  <path d="M32 8 L50 16 L50 34 Q50 48 32 56 Q14 48 14 34 L14 16 Z" fill="#E63946" opacity="0.15"/>
+  <path d="M32 12 L47 19 L47 34 Q47 46 32 53 Q17 46 17 34 L17 19 Z" fill="none" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Lettre C (Console) au centre -->
+  <text x="32" y="40" font-family="Arial Black, Arial" font-weight="900" font-size="22" fill="#E63946" text-anchor="middle">C</text>
+</svg>
