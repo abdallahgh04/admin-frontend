@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import {
   Box, Typography, Grid, Paper, CircularProgress,
   Table, TableHead, TableRow, TableCell, TableBody,
-  Chip, Stack, Divider, Avatar,
+  Chip, Stack, Divider,
 } from "@mui/material";
 import {
   AreaChart, Area, BarChart, Bar, PieChart, Pie, Cell,

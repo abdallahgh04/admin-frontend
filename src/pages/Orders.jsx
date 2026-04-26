@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import {
   Box, Typography, Paper, Table, TableHead, TableRow, TableCell,
-  TableBody, CircularProgress, Alert, Chip, Stack, TextField,
+  TableBody, CircularProgress, Alert, Stack, TextField,
   InputAdornment, Select, MenuItem, FormControl,
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
@@ -120,7 +120,7 @@ export default function Orders() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {filtered.map((o, i) => {
+            {filtered.map((o) => {
               const a = o.attributes;
               const status = STATUS_CONFIG[a.status] || STATUS_CONFIG.pending;
               return (

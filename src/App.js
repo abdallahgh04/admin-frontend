@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import { useState } from "react";
 import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
 import Layout from "./components/Layout";
 import Dashboard from "./pages/Dashboard";
